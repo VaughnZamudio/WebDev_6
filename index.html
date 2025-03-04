@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Style This HTML Lab</title>
   <link href='https://fonts.googleapis.com/css?family=Devonshire' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/lab6_final.css">
   <style>
     body {
       background-image: url("../images/black.jpg");
@@ -13,20 +14,20 @@
     #page-wrapper {
       width: 960px;
       margin: 0 auto;
-      box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
-      border-radius: 12px 12px 0px 0px;
+      box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1); 
+      border-radius: 12px 12px 0px 0px; 
     }
 
     #header {
       position: relative;
       margin-top: 40px;
-      border-radius: 12px 12px 0px 0px;
+      border-radius: 12px 12px 0px 0px; 
     }
 
     #header h1 {
       position: absolute;
       left: 420px;
-      top: 5px;
+      top:5px;
       font-size: 3em;
       font-family: 'Devonshire', cursive;
       color: #E35335;
@@ -36,6 +37,15 @@
       margin-top: 20px;
       margin-left: 20px;
       margin-bottom: 20px;
+    }
+
+    #header #toplink {
+      text-decoration: none;
+      position: absolute;
+      top:-34px;
+      right: 10px;
+      color: white;
+      font-size: 1.8em;
     }
 
     #footer {
@@ -89,7 +99,7 @@
       padding: 0;
       float: left;
       position: relative;
-      left: 50%;
+      left:50%;
     }
 
     #main-nav ul li {
@@ -121,7 +131,6 @@
     }
   </style>
 </head>
-
 <body>
   <div id="page-wrapper">
     <header id="header">
@@ -141,15 +150,8 @@
       <div id="main-content">
         <h2><strong>This is our h2 Tag</strong></h2>
         <img class="image-r" src="images/main.png" alt="Logo for Main Squeeze Juice Company in black and white">
-        <p>Lorem ipsum dolor sit amet...</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
         <ul id="bul1">
-          <li>List 1</li>
-          <li>List 2</li>
-          <li>List 3</li>
-          <li>List 4</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet...</p>
-        <ul id="bul2">
           <li>List 1</li>
           <li>List 2</li>
           <li>List 3</li>
@@ -162,10 +164,8 @@
       <aside id="side-content">
         <h3>Interesting Articles</h3>
         <ol id="news">
-          <li><a href="#">Article 1</a><div><p>Preview of very interesting article</p></div></li>
-          <li><a href="#">Article 2</a><div><p>Preview of very interesting article</p></div></li>
-          <li><a href="#">Article 3</a><div><p>Preview of very interesting article</p></div></li>
-          <li><a href="#">Article 4</a><div><p>Preview of very interesting article</p></div></li>
+          <li><a href="#">Article 1</a><div><p>Preview of very interesting article article</p></div></li>
+          <li><a href="#">Article 2</a><div><p>Preview of very interesting article article</p></div></li>
         </ol>
       </aside>
     </main>
@@ -174,5 +174,5 @@
     </footer>
   </div>
 </body>
-
 </html>
+
